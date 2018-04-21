@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial scale = 1">
+	<title>
+		Portfolio Page
+	</title>
+	<style type="text/css">
+		
+
+		body
+		{
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		header
+		{
+			width: 100%;
+			display: inline-block;
+		}
+		.header_figure
+		{
+			float: left;
+		}
+		.header_section
+		{
+			float: right;
+		}
+
+		.my_name
+		{
+			font-size: 4em;
+			text-align:right;
+		}
+		.my_title
+		{
+			text-align: right;
+			font-size: 1.5em;
+		}
+		/*.my_img
+		{
+			width: 10em;
+			height: 10em;
+		}*/
+		.project_section
+		{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		a
+		{
+			margin: auto;
+			font-size: 1.5em;
+			text-align: center;
+			display: block;
+			color: #2d3c49;
+		}
+		.work
+		{
+			margin: auto;
+			font-size: 1.5em;
+			color: #7d97ad;
+		}
+		/*.main_image
+		{
+			width: 100%;
+		}*/
+		img
+		{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+		.figure
+		{
+			width: 100px;
+		}
+
+		@media screen and (max-width: 440px)
+		{
+
+			.my_name
+			{
+				font-size: 2em;
+				text-align: left;
+			}
+			.header_section
+			{
+				margin-left: 15%;
+				float: left;
+			}
+
+			.my_title
+			{
+				font-size: 1em;
+				text-align: left;
+			}
+
+			.work
+			{
+				text-align: center;
+			}
+		}
+
+		@media screen and (max-width: 300px)
+		{
+			
+			a
+			{
+				font-size: 1em;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<header>
+		<figure class = "header_figure">
+			<img src="D:\Python Workspace\Projects\Project 2\photo.jpg" class = "my_img">
+		</figure>
+		
+		<section class = "header_section">
+			<div class = "my_name">CHETAN OLI</div>
+			<div class = "my_title">Full-Stack Web Developer</div>
+		</section>
+	</header>
+	<hr>
+	<main>
+		<figure>
+			<img src="D:\Python Workspace\Projects\Project 2\main_image.jpg" class = "main_image">
+		</figure>
+
+		<div class = "work">Featured Work</div>
+
+		<section class = "project_section">
+			<section class = "porject one">
+				<figure class = "project 1">
+					<img src="D:\Python Workspace\Projects\Project 2\project.png" class = "project1">
+				</figure>
+				<a href="https://github.com/">Project Link1</a>
+
+			</section>
+			
+			<section class = "project two">
+				<figure class = "project 2">
+					<img src="D:\Python Workspace\Projects\Project 2\project.png" class = "project1">
+				</figure>
+				<a href="https://github.com/">Project Link2</a>
+			</section>
+
+			<section class = "project three">
+				<figure class = "project 2">
+					<img src="D:\Python Workspace\Projects\Project 2\project.png" class = "project1">
+				</figure>
+				<a href="https://github.com/">Project Link3</a>
+			</section>
+
+		</section>
+	</main>
+	
+</body>
+</html>
